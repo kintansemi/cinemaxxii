@@ -1,0 +1,309 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Cinema XXI Book</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="js/jquery-func.js"></script>
+<script type="applijewelleryion/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="css/book.css" rel='stylesheet' type='text/css' />
+<script src="js/jquery-1.11.1.min.js"></script>
+<link href='//fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300italic,300,600' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+</head>
+<body>
+
+					<script src="js/classie.js"></script>
+					<script src="js/uisearch.js"></script>
+					<script>
+						new UISearch( document.getElementById( 'sb-search' ) );
+					</script>
+	<div class="details">
+		<div class="container">
+			<div class="col-md-7 details-left"></div>
+			<div class="clearfix"> </div>
+			<div class="details-top">
+				<h5>Book your ticket here!</h5>
+				<p>Fill the form with your real identity to book the ticket.</p>
+			</div>
+			<div class="booking-form">
+				 <div class="col-md-6">
+					<form name ="form1" method="post" action="simpan_data.php">
+						<h5>nama</h5>
+						<input type="text" name="fm_nama" id="fm_nama">
+						<h5>email</h5>
+						<input type="text" name="fm_email" id="fm_email">
+						<h5>phone</h5>
+						<input type="text" name="fm_phone" id="fm_phone">
+
+				</div>
+				<div class="col-md-6">
+					<form>
+						<h5>Date Showing</h5>
+							<select class="arrival">
+								 <option>01</option>
+								 <option>02</option>
+								 <option>03</option>
+								 <option>04</option>
+								 <option>05</option>
+								 <option>06</option>
+								 <option>08</option>
+								 <option>09</option>
+								 <option>10</option>
+								 <option>11</option>
+								 <option>12</option>
+								 <option>13</option>
+								 <option>14</option>
+								 <option>15</option>
+								 <option>16</option>
+								 <option>17</option>
+								 <option>18</option>
+								 <option>19</option>
+								 <option>20</option>
+								 <option>21</option>
+								 <option>22</option>
+								 <option>23</option>
+								 <option>24</option>
+								 <option>25</option>
+								 <option>26</option>
+								 <option>27</option>
+								 <option>28</option>
+								 <option>29</option>
+								 <option>30</option>
+								 <option>31</option>
+							 </select>
+							 <select class="arrival">
+								 <option>Jan</option>
+								 <option>Feb</option>
+								 <option>Mar</option>
+								 <option>Apr</option>
+								 <option>May</option>
+								 <option>June</option>
+								 <option>July</option>
+								 <option>Aug</option>
+								 <option>Sep</option>
+								 <option>Oct</option>
+								 <option>Nov</option>
+								 <option>Dec</option>
+							 </select>
+						<h5>Time Showing</h5>
+							 <select class="arrival">
+								 <option>12:15</option>
+								 <option>12:45</option>
+								 <option>14:25</option>
+								 <option>16:35</option>
+								 <option>18:45</option>
+								 <option>19:15</option>
+								 <option>20:55</option>
+								 <option>21:10</option>
+							 </select>
+
+				 <h5 class="mem">How Many Ticket?</h5>
+				 <input min="1" type="number" id="quantity" name="quantity" value="1" class="form-control input-small"><br>
+
+
+			 </div>
+     </div>
+
+		 <style>
+		 .aaaaa {
+		   color: black;
+		 }
+		 .aaaaa td{
+			 color: black;
+		 }
+		 	.bangku
+		 	{
+		 		width: 30px;
+		 		height:30px;
+		 		text-align:center;
+		 		font-size:20px;
+		 		background-color:#F00;
+		 		color:#FFF;
+		 		cursor:pointer;
+		 		margin-top:4px;
+		 		margin-right:4px;
+		 	}
+
+
+		 	.btn-hijau
+		 	{
+		 		background:#4fb821;
+		 	}
+
+		 	.btn-biru
+		 	{
+		 		background:#2c35f1;
+		 	}
+		 </style>
+
+		 <br><b><br><br>
+		 <center>
+		 <table width="10%" border="0" cellpadding="4" cellspacing="4" class="aaaaa">
+		   <tr>
+		     <h1 style="color:black;">CHOOSE YOUR SEAT</h1>
+		   </tr>
+		   <tr>
+		 		<td>A</td>
+		     <td><div class="bangku btn-hijau" data-id="0">1</div></td>
+		     <td><div class="bangku btn-hijau" data-id="0">2</div></td>
+		     <td><div class="bangku btn-hijau" data-id="0">3</div></td>
+		     <td><div class="bangku btn-hijau" data-id="0">4</div></td>
+		 		<td><div class="bangku btn-hijau" data-id="0">5</div></td>
+		 		<td><div class="bangku btn-hijau" data-id="0">6</div></td>
+		 		<td><div class="bangku btn-hijau" data-id="0">7</div></td>
+		 	  <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+		 		<td><div class="bangku btn-hijau" data-id="0">8</div></td>
+		 		<td><div class="bangku btn-hijau" data-id="0">9</div></td>
+		 		<td><div class="bangku btn-hijau" data-id="0">10</div></td>
+		 		<td><div class="bangku btn-hijau" data-id="0">11</div></td>
+		 		<td><div class="bangku btn-hijau" data-id="0">12</div></td>
+		 		<td><div class="bangku btn-hijau" data-id="0">13</div></td>
+		 		<td><div class="bangku btn-hijau" data-id="0">14</div></td>
+		 		<td>A</td>
+		   </tr>
+		 	<tr>
+		 		<td>B</td>
+		     <td><div class="bangku btn-hijau" data-id="0">1</div></td>
+		     <td><div class="bangku btn-hijau" data-id="0">2</div></td>
+		     <td><div class="bangku btn-hijau" data-id="0">3</div></td>
+		     <td><div class="bangku btn-hijau" data-id="0">4</div></td>
+		 		<td><div class="bangku btn-hijau" data-id="0">5</div></td>
+		 		<td><div class="bangku btn-hijau" data-id="0">6</div></td>
+		 		<td><div class="bangku btn-hijau" data-id="0">7</div></td>
+		 	  <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+		 		<td><div class="bangku btn-hijau" data-id="0">8</div></td>
+		 		<td><div class="bangku btn-hijau" data-id="0">9</div></td>
+		 		<td><div class="bangku btn-hijau" data-id="0">10</div></td>
+		 		<td><div class="bangku btn-hijau" data-id="0">11</div></td>
+		 		<td><div class="bangku btn-hijau" data-id="0">12</div></td>
+		 		<td><div class="bangku btn-hijau" data-id="0">13</div></td>
+		 		<td><div class="bangku btn-hijau" data-id="0">14</div></td>
+		 		<td>B</td>
+		   </tr>
+		 	<tr>
+		 		<td>C</td>
+		     <td><div class="bangku btn-hijau" data-id="0">1</div></td>
+		     <td><div class="bangku btn-hijau" data-id="0">2</div></td>
+		     <td><div class="bangku btn-hijau" data-id="0">3</div></td>
+		     <td><div class="bangku btn-hijau" data-id="0">4</div></td>
+		 		<td><div class="bangku btn-hijau" data-id="0">5</div></td>
+		 		<td><div class="bangku btn-hijau" data-id="0">6</div></td>
+		 		<td><div class="bangku btn-hijau" data-id="0">7</div></td>
+		 	  <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+		 		<td><div class="bangku btn-hijau" data-id="0">8</div></td>
+		 		<td><div class="bangku btn-hijau" data-id="0">9</div></td>
+		 		<td><div class="bangku btn-hijau" data-id="0">10</div></td>
+		 		<td><div class="bangku btn-hijau" data-id="0">11</div></td>
+		 		<td><div class="bangku btn-hijau" data-id="0">12</div></td>
+		 		<td><div class="bangku btn-hijau" data-id="0">13</div></td>
+		 		<td><div class="bangku btn-hijau" data-id="0">14</div></td>
+		 		<td>C</td>
+		   </tr>
+		 	<tr>
+		 		<td>D</td>
+		     <td><div class="bangku btn-hijau" data-id="0">1</div></td>
+		     <td><div class="bangku btn-hijau" data-id="0">2</div></td>
+		     <td><div class="bangku btn-hijau" data-id="0">3</div></td>
+		     <td><div class="bangku btn-hijau" data-id="0">4</div></td>
+		 		<td><div class="bangku btn-hijau" data-id="0">5</div></td>
+		 		<td><div class="bangku btn-hijau" data-id="0">6</div></td>
+		 		<td><div class="bangku btn-hijau" data-id="0">7</div></td>
+		 	  <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+		 		<td><div class="bangku btn-hijau" data-id="0">8</div></td>
+		 		<td><div class="bangku btn-hijau" data-id="0">9</div></td>
+		 		<td><div class="bangku btn-hijau" data-id="0">10</div></td>
+		 		<td><div class="bangku btn-hijau" data-id="0">11</div></td>
+		 		<td><div class="bangku btn-hijau" data-id="0">12</div></td>
+		 		<td><div class="bangku btn-hijau" data-id="0">13</div></td>
+		 		<td><div class="bangku btn-hijau" data-id="0">14</div></td>
+		 		<td>D</td>
+		   </tr>
+		 	<tr>
+		 		<td>E</td>
+		     <td><div class="bangku btn-hijau" data-id="0">1</div></td>
+		     <td><div class="bangku btn-hijau" data-id="0">2</div></td>
+		     <td><div class="bangku btn-hijau" data-id="0">3</div></td>
+		     <td><div class="bangku btn-hijau" data-id="0">4</div></td>
+		 		<td><div class="bangku btn-hijau" data-id="0">5</div></td>
+		 		<td><div class="bangku btn-hijau" data-id="0">6</div></td>
+		 		<td><div class="bangku btn-hijau" data-id="0">7</div></td>
+		 	  <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+		 		<td><div class="bangku btn-hijau" data-id="0">8</div></td>
+		 		<td><div class="bangku btn-hijau" data-id="0">9</div></td>
+		 		<td><div class="bangku btn-hijau" data-id="0">10</div></td>
+		 		<td><div class="bangku btn-hijau" data-id="0">11</div></td>
+		 		<td><div class="bangku btn-hijau" data-id="0">12</div></td>
+		 		<td><div class="bangku btn-hijau" data-id="0">13</div></td>
+		 		<td><div class="bangku btn-hijau" data-id="0">14</div></td>
+		 		<td>E</td>
+		   </tr>
+		 	<tr>
+		 		<td>F</td>
+		     <td><div class="bangku btn-hijau" data-id="0">1</div></td>
+		     <td><div class="bangku btn-hijau" data-id="0">2</div></td>
+		     <td><div class="bangku btn-hijau" data-id="0">3</div></td>
+		     <td><div class="bangku btn-hijau" data-id="0">4</div></td>
+		 		<td><div class="bangku btn-hijau" data-id="0">5</div></td>
+		 		<td><div class="bangku btn-hijau" data-id="0">6</div></td>
+		 		<td><div class="bangku btn-hijau" data-id="0">7</div></td>
+		 	  <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+		 		<td><div class="bangku btn-hijau" data-id="0">8</div></td>
+		 		<td><div class="bangku btn-hijau" data-id="0">9</div></td>
+		 		<td><div class="bangku btn-hijau" data-id="0">10</div></td>
+		 		<td><div class="bangku btn-hijau" data-id="0">11</div></td>
+		 		<td><div class="bangku btn-hijau" data-id="0">12</div></td>
+		 		<td><div class="bangku btn-hijau" data-id="0">13</div></td>
+		 		<td><div class="bangku btn-hijau" data-id="0">14</div></td>
+		 		<td>F</td>
+		   </tr>
+		 	<tr>
+		 		<td>G</td>
+		     <td><div class="bangku btn-hijau" data-id="0">1</div></td>
+		     <td><div class="bangku btn-hijau" data-id="0">2</div></td>
+		     <td><div class="bangku btn-hijau" data-id="0">3</div></td>
+		     <td><div class="bangku btn-hijau" data-id="0">4</div></td>
+		 		<td><div class="bangku btn-hijau" data-id="0">5</div></td>
+		 		<td><div class="bangku btn-hijau" data-id="0">6</div></td>
+		 		<td><div class="bangku btn-hijau" data-id="0">7</div></td>
+		 	  <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+		 		<td><div class="bangku btn-hijau" data-id="0">8</div></td>
+		 		<td><div class="bangku btn-hijau" data-id="0">9</div></td>
+		 		<td><div class="bangku btn-hijau" data-id="0">10</div></td>
+		 		<td><div class="bangku btn-hijau" data-id="0">11</div></td>
+		 		<td><div class="bangku btn-hijau" data-id="0">12</div></td>
+		 		<td><div class="bangku btn-hijau" data-id="0">13</div></td>
+		 		<td><div class="bangku btn-hijau" data-id="0">14</div></td>
+		 		<td>G</td>
+		   </tr>
+		 	<tr>
+		 		<td>H</td>
+		     <td><div class="bangku btn-hijau" data-id="0">1</div></td>
+		     <td><div class="bangku btn-hijau" data-id="0">2</div></td>
+		     <td><div class="bangku btn-hijau" data-id="0">3</div></td>
+		     <td><div class="bangku btn-hijau" data-id="0">4</div></td>
+		 		<td><div class="bangku btn-hijau" data-id="0">5</div></td>
+		 		<td><div class="bangku btn-hijau" data-id="0">6</div></td>
+		 		<td><div class="bangku btn-hijau" data-id="0">7</div></td>
+		 	  <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+		 		<td><div class="bangku btn-hijau" data-id="0">8</div></td>
+		 		<td><div class="bangku btn-hijau" data-id="0">9</div></td>
+		 		<td><div class="bangku btn-hijau" data-id="0">10</div></td>
+		 		<td><div class="bangku btn-hijau" data-id="0">11</div></td>
+		 		<td><div class="bangku btn-hijau" data-id="0">12</div></td>
+		 		<td><div class="bangku btn-hijau" data-id="0">13</div></td>
+		 		<td><div class="bangku btn-hijau" data-id="0">14</div></td>
+		 		<td>H</td>
+		   </tr>
+		 </table><br><br>
+		 <input type="submit" name="continue" value="simpan">
+		 </center>
+ </div>
+</div>
+ </form>
+ </form>
+</body>
+</html>
